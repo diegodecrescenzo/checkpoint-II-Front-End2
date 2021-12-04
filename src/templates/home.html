@@ -1,0 +1,75 @@
+<div class="container">
+
+    <div class="row justify-content-center mt-5">
+        <div class="col-12 col-lg- text-center">
+            <img src="./img/banner.svg" alt="banner" width="200px">
+        </div>
+    </div>
+
+    <div class="row justify-content-center ">
+        <div class="col-12 col-lg-8 text-center mt-5">
+            <h4 class="text-dark">Adicione uma Nova Tarefa</h4>
+        </div>
+    </div>
+
+    <div class="row justify-content-center ">
+        <div class="col-12 col-lg-6 text-center mt-5">
+            <button id="showModal" type="button" class="btn btn-dark w-50">
+                Criar
+            </button>
+        </div>
+    </div>
+</div>
+
+<!-- Modal -->
+<div class="modal fade" id="myModal" tabindex="-1">
+    <div class="modal-dialog">
+        <div class="modal-content bg-dark">
+
+            <div class="modal-body">
+                <form action="" class="d-flex flex-column align-items-center mt-3">
+                    <div class="row justify-content-around">
+                        <div class="col-12 col-lg-8">
+
+                            <div class="d-flex justify-content-between">
+
+                                <div class="data-criacao">
+                                    <label for="data-criacao">Data Criação</label>
+                                    <input type="text" class="form-control" name="data-criacao" id="data-criacao" disabled>
+                                </div>
+
+                                <div class="ml-2">
+                                    <label for="data-limite">Data Limite</label>
+                                    <input type="date" class="form-control" name="data-limite" id="data-limite" required>
+                                    <span class="d-none">Campo inválido!</span>
+                                </div>
+
+                            </div>
+                        </div>
+
+                        <div class="col-12 col-lg-8 mt-3">
+                            <div class="form-group ">
+                                <label for="">Descrição</label>
+                                <input class="form-control" type="text" name="descricao" id="descricao" required>
+                                <span class="d-none">Campo inválido!</span>
+                            </div>
+                        </div>
+
+                        <div class="d-none" data-alert></div>
+
+                        <div class="col-12 col-lg-8">
+                            <div class="form-group text-center mt-4">
+                                <button id="salvar" class="btn btn-secondary mr-5" type="submit">Enviar</button>
+                                <button type="button" class="btn btn-light" data-dismiss="modal">Fechar</button>
+                            </div>
+                        </div>
+
+                    </div>
+                </form>
+            </div>
+
+        </div>
+    </div>
+</div>
+
+</div>
