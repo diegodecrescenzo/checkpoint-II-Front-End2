@@ -1,5 +1,4 @@
 import CarregarTarefas from "./componentes/CarregarTarefas.js";
-import SalvarTarefa from "./componentes/SalvarTarefa.js";
 import TarefasAPI from "./componentes/TarefasAPI.js";
 import ValidandoCampos from "./componentes/ValidandoCampos.js";
 
@@ -56,17 +55,15 @@ function handleMutationObserver() {
         $("#myModal").modal('show');
     })    
     
-    // Função de Validar os Campos
-    ValidandoCampos(dataAtual);
-    
-    // Salvando nova tarefa
-    SalvarTarefa();
+    // Função de Validar os Campos e Salvar Nova Tarefa no localStorage
+    ValidandoCampos(dataAtual); 
 
     //Fechando a Modal e limpando todos os campos preenchidos
     $('[data-dismiss]').on('click', () => {
         $('input').not(':disabled').val('').removeClass('border border-danger border-success');
         $('#data-limite').siblings('span').addClass('d-none')
         $('#descricao').siblings('span').addClass('d-none')
+        $('[data-alert]').addClass('d-none');
         $("#myModal").modal('hide');
     })    
 }
