@@ -14,37 +14,43 @@
 <body class="bg-secondary">
 
     <header>
-        <nav class="navbar navbar-expand-md navbar-dark bg-dark" aria-label="Fourth navbar example">
+        <nav class="navbar navbar-expand-md navbar-dark bg-dark">
             <div class="container-fluid">
+
+                <!-- LOGOTIPO -->
                 <div id="titulo">
                     <img src="./img/logo7.ico" alt="Logo My Tasks" id="logo">
                     <a class="navbar-brand" href="" data-home>MY TASKS</a>
                 </div>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbars"
+                
+                <!-- BOTÃO MENU MOBILE -->
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbars"
                     aria-controls="navbars" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
-                <div class="collapse navbar-collapse" id="navbars">
+
+                <!-- MENU -->
+                 <div class="collapse navbar-collapse" id="navbars">
                     <ul class="navbar-nav mb-2 mb-md-0">
                         <li class="nav-item">
-                            <a class="nav-link" aria-current="page" href="" data-home>Adicionar Tarefas</a>
+                            <a class="nav-link" href="" data-home>Adicionar Tarefas</a>
                         </li>
-                        <li id="tasks" class="nav-item pl-2 ml-2">
+                        <li id="tasks" class="nav-item">
                             <a class="nav-link" href="" data-task>My Tasks</a>
                         </li>
                     </ul>
                 </div>
             </div>
         </nav>
+
     </header>
 
-
+    <!-- LOADER CARDS -->
     <div class="content-loader">
         <div class="loader"></div>
     </div>
-    <main class="my-5 p-5">
-        
-    </main>
+
+    <main class="my-5 p-5"></main>
 
     <footer>
         <h4>CheckPoint II - Front-End 2</h4>
@@ -55,8 +61,9 @@
                 <li><a href="https://www.linkedin.com/in/diego-decrescenzo">Diego Decrescenzo</a></li>
                 <li><a href="https://www.linkedin.com/in/gabriel-pena-710442218/">Gabriel Gomes</a></li>
                 <li><a href="https://www.linkedin.com/in/vitor-dutra/">João Vitor Dutra</a></li>
-                <li><a href="https://www.linkedin.com/in/katherine-mariete-l%C3%B3pez-duarte-a7a219a2/">Katherine Duarte</a></li>
-                <li><a href="https://www.linkedin.com/in/wcs21/">Wallace Souza</a></li>                
+                <li><a href="https://www.linkedin.com/in/katherine-mariete-l%C3%B3pez-duarte-a7a219a2/">Katherine
+                        Duarte</a></li>
+                <li><a href="https://www.linkedin.com/in/wcs21/">Wallace Souza</a></li>
             </ul>
         </div>
     </footer>
@@ -64,9 +71,7 @@
 
     <!-- jQuery -->
     <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
-        crossorigin="anonymous"></script>
+    <script src="../node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
     <!-- MomentJS -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.29.1/moment.min.js"></script>
     <script type="module" src="./js/script.js"></script>
