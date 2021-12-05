@@ -59,3 +59,4 @@ cd src/css
 sass -w .
 ```
 
+Made with 💜 By [Diego Decrescenzo](https://github.com/diegodecrescenzo), [Dafne Barbosa](), [Gabriel Gomes](), [Vitor Dutra](https://github.com/vitordutra) and [Katherine Duarte]()
