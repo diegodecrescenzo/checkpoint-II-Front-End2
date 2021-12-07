@@ -64,5 +64,6 @@ Made with 💜 By <br>
 [Diego Decrescenzo](https://github.com/diegodecrescenzo),<br>  
 [Gabriel Gomes](https://github.com/GabrielGPena793),<br> 
 [Katherine Duarte](https://github.com/katamarieth),<br>
+[Thyano Correia](https://github.com/imthyano),<br>
 [Vitor Dutra](https://github.com/vitordutra),<br>
 [Wallace Souza](https://github.com/WallaceCS21)
